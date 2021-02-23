@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bodyStyle{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Sans Unicode", sans-serif;
+    color: white;
+    background-color: #2B81AC;
+    padding: 0.8% 1%;    
+}
+
+.headerStyle {
+    background-color: #3399CC;
+    padding: 2.5% 15%;
+}
+
+.footerStyle {
+    background-color: #3399CC;
+    padding: 2% 15% 10% 15%;
+}
+
+.firstLayer {
+    background-color: #3399CC;
+    width: 100%;
+    height: 100%;
+    padding: 0% 15%;
+    
+}
+
+.secondLayer {
+    background-color: white;
+
+}
+
+.thirdLayer {
+    background-color: white;
+    text-align: center;
+    list-style: none;
+    font-size: 0; 
+    border: 3px solid white;          
+}
+
+.thirdLayer li {
+    display: inline-block;
+    font-size: 34px;
+}
+
+.oneSection {
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    border: 3px solid white;
+    padding-bottom: 3%;   
+}
+
+.twoSection {
+    background-color: white;
+    width: 50%;
+    height: 25%;
+    border: 3px solid white;
+    padding-bottom: 3%; 
+}
+
+.fullSection {
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    border: 3px solid white;
+    padding-bottom: 3%; 
+}
+
+.cityName {
+    width: 100%;
+    height: 100%;
+    padding: 7% 10% 0 10%;
+    padding-bottom: 3%; 
+}
+
+.cityName1 {
+    width: 100%;
+    height: 100%;
+    padding: 14% 10% 0 10%;
+    padding-bottom: 6.2%; 
+}
+
+.cityName2 {
+    width: 100%;
+    height: 100%;
+    padding: 4% 10% 0 10%;
+    padding-bottom: 2.3%; 
+}
+
+.lisbon {background-color: #3399CC;}
+.paris {background-color: #33CCCC;}
+.belgrade {background-color: #996699;}
+.moscow {background-color: #C24747;}
+.telaviv {background-color: #E2674A;}
+.cair {background-color: #FFCC66;}
+.newyork {background-color: #99CC99;}
+.newdelhi {background-color: #669999;}
+.sanfancisco {background-color: #CC6699;}
+.tokyo {background-color: #339966;}
+.sydney {background-color: #666699;}
+
+.secondLayer:hover ul:hover li:hover {
+    opacity: 0.9;    
+}
+
+.secondLayer:hover ul:hover {
+    background-color: white;
+    opacity: 0.8;    
+}
+
+
+  
